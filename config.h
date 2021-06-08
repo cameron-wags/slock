@@ -10,6 +10,7 @@ static const char *colorname[NUMCOLS] = {
 
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
+/* time between locking and screen blanking, in seconds */
 static const int monitortime = 10;
 
 /*Enable blur*/
